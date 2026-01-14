@@ -10,14 +10,7 @@ while True:
        
        with open(new_choice1, "r") as f:
             print(f.read())
-           
-       
-       n = input("Enter whether you want to edit or not:").lower()
-       if n == "edit":
-           
-           with open(new_choice1,"w") as f:
-               f.write(n)
-               break
+            break
    
    elif choice == "create":
        text = input("Enter You text: ")
