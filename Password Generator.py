@@ -1,7 +1,7 @@
 import random 
 import string 
 
-length = int (input("Enter Password Length: "))
+length = int(input("Enter Password Length: "))
 
 use_upper = input("Include uppercase letters? (y/n): ").lower()
 use_digits = input("Include Numbers? (y/n): ").lower()
